@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    font-size: 0.95em;
+    margin: 0 auto;
+    color: #333;
+    color : #212121;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.img_preview img{
+border: #E0E0E0 1px solid;
+}
+#selectImage {
+    display: inline-block;
+    border: #3d843e 1px solid;
+    position: relative;
+    background-color: #48944b;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    padding: 10px 50px;
+}
+#imgChange input[type="file"] {
+    bottom: 0;
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+.progress-bar {
+    padding: 3px 0px 0px 0px;
+    width: 200px;
+    margin: 10px auto;
+    border: #E0E0E0 1px solid;
+}
+.progress-bar .bar {
+    background-color: #FFA500;
+    width: 0%;
+    height: 4px;
+}
+.progress-bar .percent {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
